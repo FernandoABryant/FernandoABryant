@@ -7,7 +7,7 @@ alias cl="clear"
 #* Used for overseeing processes. *#
 alias pst="pstree"
 #* Tmux re-attach. *#
-alias tma="tmux attach"
+alias ta="tmux attach"
 #* Make tmux behave like login shell, then make it assume every terminal has 256 color support. *#
 alias tmx="tmux -2l"
 #* Automize apt superprivileges. *#
@@ -75,3 +75,5 @@ alias lsn="less --LINE-NUMBERS"
 alias ar="sudo rm --force --recursive --verbose"
 #* Make copy easier. *#
 alias mc="sudo cp --verbose --preserve=all --archive"
+#* Make copy easier. *#
+alias cv="sudo cp -rav"
