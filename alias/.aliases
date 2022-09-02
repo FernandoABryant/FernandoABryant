@@ -1,0 +1,77 @@
+#!/bin/bash
+# Title: Aliases file.
+# Date: 8/26/22
+
+#* Make using clear easier. *#
+alias cl="clear"
+#* Used for overseeing processes. *#
+alias pst="pstree"
+#* Tmux re-attach. *#
+alias tma="tmux attach"
+#* Make tmux behave like login shell, then make it assume every terminal has 256 color support. *#
+alias tmx="tmux -2l"
+#* Automize apt superprivileges. *#
+alias apt="sudo apt"
+#* Search for programs. *#
+alias sfp="sudo apt search"
+#* Reinstall programs that have been taken away. *#
+alias apr="sudo apt reinstall"
+#* Auto install desired program. *#
+alias api="sudo apt install -y"
+#* Vim alias. *#
+alias vi="vim"
+#* Youtube-dl *#
+alias ydl="sudo youtube-dl --verbose"
+#* Music player *#
+alias mp="cmus"
+#* Make quick folder. *#
+alias md="sudo mkdir -pv"
+#* Quick file source. *#
+alias qs=". ~/.aliases"
+#* Jump to directory. *#
+alias j="cd"
+#* Jump to home quickly. *#
+alias hme="cd $HOME/"
+#* Use Vim to access alias file. *#
+alias via="vi ~/.aliases"
+#* Make directory navigation easier. *#
+alias etc="cd /etc"
+alias bin="cd /bin"
+alias boot="cd /boot"
+alias dev="cd /dev"
+alias etc="cd /etc"
+alias lib="cd /lib"
+alias lib32="cd /lib32"
+alias lib64="cd /lib64"
+alias libx32="cd /libx32"
+alias lf="cd /lost+found"
+alias media="cd /media"
+alias mnt="cd /mnt"
+alias opt="cd /opt"
+alias proc="cd /proc"
+alias root="cd /root"
+alias run="cd /run"
+alias sbin="cd /sbin"
+alias srv="cd /srv"
+alias sys="cd /sys"
+alias tmp="cd /tmp"
+alias usr="cd /usr"
+alias var="cd /var"
+#* Go backwards into the desired directory. *#
+alias b1="cd .."
+alias b2="cd ../.."
+alias b3="cd ../../.."
+alias b4="cd ../../../.."
+alias b5="cd ../../../../.."
+alias b6="cd ../../../../../.."
+alias b7="cd ../../../../../../.."
+#* move file into directory. *#
+alias em="sudo mv -v"
+#* list all contents within a directory. *#
+alias la="ls --all"
+#* Use less with line numbers. *#
+alias lsn="less --LINE-NUMBERS"
+#* Autoremove different programs. *#
+alias ar="sudo rm --force --recursive --verbose"
+#* Make copy easier. *#
+alias mc="sudo cp --verbose --preserve=all --archive"
