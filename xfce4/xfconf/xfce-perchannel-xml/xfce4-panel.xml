@@ -5,10 +5,10 @@
   <property name="panels" type="array">
     <value type="int" value="1"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=6;x=960;y=17"/>
+      <property name="position" type="string" value="p=8;x=960;y=1064"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="icon-size" type="uint" value="16"/>
+      <property name="icon-size" type="uint" value="25"/>
       <property name="size" type="uint" value="30"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="23"/>
@@ -26,6 +26,7 @@
         <value type="int" value="14"/>
       </property>
       <property name="mode" type="uint" value="0"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -57,7 +58,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance11010;firefox.instance1250;firefox.instance1256;firefox.instance1277;firefox.instance1293;firefox.instance1294;firefox.instance1311;firefox.instance1521;firefox.instance1673;firefox.instance2539;firefox.instance2557"/>
+      <property name="mpris-players" type="string" value="firefox.instance11010;firefox.instance1250;firefox.instance1256;firefox.instance1277;firefox.instance1291;firefox.instance1293;firefox.instance1294;firefox.instance1311;firefox.instance1521;firefox.instance1673;firefox.instance2539;firefox.instance2557"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
