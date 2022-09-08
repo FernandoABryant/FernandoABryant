@@ -54,9 +54,9 @@ URxvt.depth: 24
 URxvt.iso14755: false
 
 !! Fonts
-*.font: xft:sarasa-mono-cl-regular:style=Regular:size=9
-*.boldFont: xft:sarasa-mono-cl-bold:style=Bold:size=9
-*.italicFont: xft:sarasa-mono-cl-italic:style=Italic:size=9
-*.boldItalicfont: xft:sarasa-mono-cl-bolditalic:style=Bold Italic:size=9
+*.font: xft:Terminus:style=Medium:size=9
+*.boldFont: xft:Terminus:style=Bold:size=9
+*.italicFont: xft:Terminus:style=Italic:size=9
+*.boldItalicfont: xft:Terminus:style=Bold Italic:size=9
 
 !! Common Keybinds for Navigations:
