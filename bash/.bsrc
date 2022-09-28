@@ -1,8 +1,9 @@
 # Title: Bash script configuration file.
 # Date: 09/27/2022
 #!/bin/bash
+#* ================================== *#
 
-#* Get aliases, functions, and other programs. *
+#* Get aliases, functions, and other programs. *#
 if [ -f $HOME/.{aliases,bashrc} ]; then
 	. ~/.{aliases,bashrc}
 fi
@@ -18,7 +19,7 @@ LC_ALL="C"
 umask 022
 
 #* PATH variables. *#
-PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/etc/:/usr/local/etc:/home/$USER:/home/bin:$HOME/.local/bin:$PATH"
+PATH="/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin:/etc/:/usr/local/etc:/home/$USER:/home/$USER/bin:$HOME/.local/bin:$PATH"
 export PATH
 
 #* Apps. *#

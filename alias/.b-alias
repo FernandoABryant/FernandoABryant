@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # Title: Aliases file.
 # Date: 8/26/22
 
@@ -9,31 +9,29 @@ alias pst="pstree"
 #* Tmux re-attach. *#
 alias ta="tmux attach"
 #* Make tmux behave like login shell, then make it assume every terminal has 256 color support. *#
-alias tmx="tmux -2l"
+alias tx="tmux -2l"
 #* Search for programs. *#
-alias pgs="sudo apt search"
+alias pse="sudo dnf search"
 #* Reinstall programs that have been taken away. *#
-alias pgr="sudo apt reinstall"
+alias pr="sudo apt reinstall"
 #* Auto install desired program. *#
-alias pgi="sudo apt install -y"
+alias pin="sudo apt install -y"
 #* purge & remove package. *#
-alias pgrm="sudo apt remove -y"
-#* Vim alias. *#
-alias vi="vim"
+alias pr="sudo apt remove -y"
 #* Youtube-dl *#
-alias ydl="sudo youtube-dl --verbose"
+alias yd="sudo youtube-dl --verbose"
 #* Music player *#
 alias mp="cmus"
 #* Make quick folder. *#
 alias md="sudo mkdir -pv"
 #* Quick file source. *#
-alias qs=". ~/{.aliases,.bashrc}"
+alias qs=". ~/.{aliases,bashrc}"
 #* Jump to directory. *#
 alias j="cd"
 #* Jump to home quickly. *#
-alias hme="cd $HOME/"
+alias hm="cd $HOME/"
 #* Use Vim to access alias file. *#
-alias via="vi ~/.aliases"
+alias ne="nvim ~/.aliases"
 #* Make directory navigation easier. *#
 alias etc="cd /etc"
 alias bin="cd /bin"
