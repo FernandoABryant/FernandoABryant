@@ -1,0 +1,9 @@
+#* Title: Bourne Shell Configuration. *#
+#* Date: 10/01/2022 *#
+#!/bin/sh
+#* ================================== *#
+if [ -df $HOME/bsh/.src ]; then
+	. $HOME/bsh/.{*,src}
+fi
+
+
