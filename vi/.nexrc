@@ -1,0 +1,5 @@
+# Date: 10/10/2022
+# Title: vi resource configuration.
+
+set number
+set autoindent
