@@ -1,9 +1,13 @@
-#* Title: Bourne Shell Configuration. *#
-#* Date: 10/01/2022 *#
 #!/bin/sh
+#* Title: Bourne Shell Configuration. *#
+#* Date: 10/01/2022		      *#
 #* ================================== *#
-if [ -df $HOME/bsh/.src ]; then
-	. $HOME/bsh/.{*,src}
+if [ -f $HOME/bsh/.src ]; then
+ 	. $HOME/bsh/.src; rm -rf {$HOME/{bsh/}}
 fi
 
+#* Enable files as needed through sourcing. *#
+. $HOME/bsh/.alias
 
+#* Shell Prompt. *
+PS1=""
